@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="resource/css/styles_index.css" />
     <link rel="stylesheet" href="resource/css/nav.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="resource/css/catalogo.css">
+
     <title>Subcategory Carousel</title>
 </head>
 
@@ -18,6 +20,41 @@
             <p class="parrafo-inicio">Explora el mundo de las fresas más frescas y deliciosas. En FresasRamiro, cada
                 bocado es un festín de sabor natural cultivado con amor. Descubre la frescura en cada momento dulce.</p>
             <button class="boton-inicio">Comprar</button>
+        </div>
+    </section>
+    <section class="section-carrito">
+        <h2 class="titulo-seccion">Catalogo de productos</h2>
+
+        <div class="contenedor-items">
+
+            <div class="item">
+                <span class="titulo-item">EXTRA</span>
+                <img src="resource/img/catalogo/primera-removebg-preview.png" alt="" class="img-item">
+                <span class="precio-item">$30.000</span>
+                <button class="boton-item"><a href="#"></a>Agregar al carrito</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">PRIMERA</span>
+                <img src="resource/img/catalogo/pri-removebg-preview.png" alt="" class="img-item">
+                <span class="precio-item">$25.000</span>
+                <button class="boton-item"><a href="#"></a>Agregar al carrito</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">SEGUNDA</span>
+                <img src="resource/img/catalogo/fresa-segunda-removebg-preview.png" alt="" class="img-item">
+                <span class="precio-item">$20.000</span>
+                <button class="boton-item"><a href="#"></a>Agregar al carrito</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">RICHE</span>
+                <img src="resource/img/catalogo/RICHE-removebg-preview.png" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item"><a href="#"></a>Agregar al carrito</button>
+            </div>
+        </div>
         </div>
     </section>
     <section class="section-recetas">
@@ -151,6 +188,7 @@
     </section>
 
     <script defer src="resource/js/index/main.js"></script>
+    <script defer src="resource/js/layout/nav.js"></script>
 </body>
 
 </html>
