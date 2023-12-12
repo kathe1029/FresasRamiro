@@ -1,10 +1,53 @@
+/*ESTILOS GENERALES*/
+section {
+  padding: 4rem 2rem;
+}
+.titulo-seccion {
+  margin-bottom: 4rem;
+}
+/* ESTILOS SECCION DE INICIO */
+.section-inicio {
+  background-image: url("../../resource/img/index/fondoplato.png");
+  background-size: cover; /* La imagen cubrirá todo el contenedor manteniendo su relación de aspecto */
+  background-position: center; /* La imagen se centrará en el contenedor */
+  height: 90vh; /* Altura del 100% del viewport (pantalla) */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-repeat: no-repeat;
+}
+.contenedor-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 45%;
+  gap: 1rem;
+}
+.contenedor-inicio .titulo-inicio {
+  font-size: 4rem;
+}
+
+.contenedor-inicio .parrafo-inicio {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.contenedor-inicio .boton-inicio {
+  color: antiquewhite;
+  background-color: #e43a64;
+  border-radius: 8px;
+  padding: 8px 18px;
+  border: 1px solid #e43a64;
+  font-size: 16px;
+}
+
+/* ESTILOS DEL CARRUSEL */
 body {
   margin: 0;
   padding: 0;
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
-    rgba(226, 226, 226, 1) 110%
+    rgb(255, 247, 247) 110%
   );
 }
 h4,

@@ -12,8 +12,16 @@
 
 <body>
     <?php include_once('view/layout/nav.php') ?>
+    <section class="section-inicio">
+        <div class="contenedor-inicio">
+            <h1 class='titulo-inicio'>Fresas Don Ramiro</h1>
+            <p class="parrafo-inicio">Explora el mundo de las fresas más frescas y deliciosas. En FresasRamiro, cada
+                bocado es un festín de sabor natural cultivado con amor. Descubre la frescura en cada momento dulce.</p>
+            <button class="boton-inicio">Comprar</button>
+        </div>
+    </section>
     <section class="section-recetas">
-        <h2>Recetas que puedes hacer</h2>
+        <h2 class="titulo-seccion">Recetas que puedes hacer</h2>
 
         <div class="slick-list" id="slick-list">
             <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
